@@ -9,5 +9,5 @@
 (defn fderive
   "Returns a function that approximates the derive of f with error h in the value given to the returned function."
   [f h]
-  (fn [a] (/ (- (f a) (f (- a h))) h))
+  (fn [a] (/ (- (f (+ a h)) (f (- a h))) (* h 2)))
 )
