@@ -1,9 +1,9 @@
 (ns exercise8)
 
-(defn squear 
+(defn squear
   "Returns the squear of a given number"
   [x]
-  (throw (Exception. "Not implemented."))
+  (* x x)
 )
 
 (defn fderive
@@ -11,7 +11,3 @@
   [f h]
   (throw (Exception. "Not implemented."))
 )
-
-
-
-
