@@ -1,0 +1,9 @@
+Para profesor corrector.
+
+Para construir la imagen corrí
+
+docker build -t functional-template .
+
+Para ejecutar corrí
+
+docker run --rm functional-template
